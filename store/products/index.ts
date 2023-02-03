@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
-import { productsList } from './productList'
+// import { productsList } from './productList'
 
 import { Product } from '../../types'
 
@@ -8,8 +8,8 @@ export interface State {
   products: Product[]
 }
 
-const initialState: State = {
-  products: productsList
+const initialState = {
+  products: []
 }
 
 export const productsSlice = createSlice({

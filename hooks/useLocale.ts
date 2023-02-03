@@ -5,7 +5,7 @@ import { ge } from '../locales/ge';
 
 export interface useLocaleReturned {
   language: string;
-  t: object
+  t: any
 }
 
 export const useLocale = (): useLocaleReturned => {

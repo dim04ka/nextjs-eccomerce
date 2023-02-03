@@ -38,7 +38,7 @@ export const getStaticProps: GetStaticProps<{ post: Post[] }> = async () => {
 
 export default function Home(props) {
 
-  const { language, t } = useLocale()
+  const { language, t } = useLocale() 
 
   // const router = useRouter();
   // const getLocale = () => {
@@ -60,7 +60,7 @@ export default function Home(props) {
 
       <Flags />
       <Link href="/posts/first-post">this page!</Link>
-      <h1>===>{t.title}</h1>
+      <h1>{t.title}</h1>
 
 
       {/* <Image

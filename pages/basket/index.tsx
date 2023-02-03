@@ -168,7 +168,7 @@ export default function Basket() {
 
   return (
     <div className='Dmitry' style={{ border: '1px solid red' }}>
-      <Modal show={true} onHide={handleClose}>
+      {/* <Modal show={true} onHide={handleClose}> */}
         {
           isSend ?
             (<Popup>
@@ -258,7 +258,7 @@ export default function Basket() {
             Оформить заказ
           </ButtonStyle>
         </Modal.Footer> */}
-      </Modal>
+      {/* </Modal> */}
       {/* <Button onClick={handleOpen}>Open modal</Button>
       <Modal
         open={open}

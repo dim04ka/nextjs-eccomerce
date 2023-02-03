@@ -41,7 +41,7 @@ export default function FirstPost(props) {
         width={300}
         alt="english language"
       />
-      <h1>First Post {current.title} {id} {loading ? 'true' : 'false'}</h1>
+      {/* <h1>First Post {current.title} {id} {loading ? 'true' : 'false'}</h1> */}
       <button onClick={handleClick}>btn</button>
       <Link href="/">back!</Link>
     </>
