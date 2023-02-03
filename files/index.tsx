@@ -1,0 +1,1 @@
+export const data = ['one', 22222]
